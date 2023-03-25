@@ -11,7 +11,7 @@
 }
 .experiencia_texto{
   font-size: 1.5rem;
-  line-height: 1.33;
+  line-height: 1.33rem;
   margin-bottom: 60px;
   max-width: 40ch;
   color: #E8E8E8;
@@ -107,6 +107,7 @@
     grid-template-columns: 1fr;
   }
   .experiencia_texto{
-    font-size: 1.15rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 }

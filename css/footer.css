@@ -92,7 +92,8 @@ color: #687C9A;
 }
 @media(max-width:600px){
   .footer_lista {
-    margin-left: 160px;
+    font-size: 0.875rem;
+    margin-left: 50px;
   }
   .footer_texto{
     font-size: 1.2rem;
@@ -100,5 +101,9 @@ color: #687C9A;
   }
   .footer_container {
     padding: 60px 20px 40px 20px;
+  }
+  .footer_copy{
+    font-size: 0.875rem;
+    line-height: 1.2rem;
   }
 }
