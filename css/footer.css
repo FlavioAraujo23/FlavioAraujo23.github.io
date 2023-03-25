@@ -49,7 +49,7 @@ position: relative;
 .footer_lista li::after{
   content: "";
   display: block;
-  width: 549px;
+  width: auto;
 height: 5px;
 background: #0A192F;
 box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
@@ -72,11 +72,13 @@ color: #687C9A;
 }
 @media(max-width:950px){
   .footer_container{
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     gap: 40px;
+    padding: 100px 20px 60px 20px;
   }
   .footer_subtitulo{
     font-size: 4rem;
+    line-height: 4rem;
   }
   
   .footer_lista li{
@@ -91,5 +93,12 @@ color: #687C9A;
 @media(max-width:600px){
   .footer_lista {
     margin-left: 160px;
+  }
+  .footer_texto{
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  .footer_container {
+    padding: 60px 20px 40px 20px;
   }
 }

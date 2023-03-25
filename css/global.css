@@ -31,7 +31,16 @@ img {
 @media (max-width: 950px) {
   .subtitulo {
     font-size: 4rem;
+    line-height: 4.5rem;
+    padding-bottom: 5px;
     text-transform: capitalize;
     max-width: initial !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .subtitulo {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
