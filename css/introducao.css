@@ -1,0 +1,176 @@
+.introducao {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: grid;
+
+}
+.detalhe p{
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.25rem;
+color: #59E3C5;
+}
+.nome{
+ grid-column: 1 / -1;
+  align-self: end;
+}
+
+.sp{
+  grid-column: 2;
+  grid-row: 4;
+  margin-left: 25px;
+}
+.sp p{
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.812rem;
+  color: #9DA7C5;
+}
+.nome_introducao {
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 9.125rem;
+  color: #ccd6f6;
+}
+.info {
+  max-width: 100vh;
+  display: grid;
+  grid-template-columns: 300px auto;
+  align-content: center;
+  margin-left: 140px;
+}
+.funcao_introducao {
+  position: relative;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  color: #bbc5e2;
+}
+.funcao{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: grid;
+ grid-column: 2;
+ align-self: start;
+}
+.ponto{
+  color: #59E3C5;
+}
+.funcao_introducao::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(/img/detalhe.svg) no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+
+@media(max-width:1100px){
+  .info{
+    grid-template-columns: 1fr 1fr;
+    margin-left: 120px;
+  }
+  .nome_introducao{
+    font-size: 7rem;
+    line-height: 8.125rem;
+  }
+  .funcao_introducao{
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .sp p{
+    font-size: 1.2rem;
+    line-height: 1.68rem;
+  }
+  .detalhe p{
+  font-size: 1.2rem;
+  line-height: 1.82rem;
+  }
+
+}
+@media(max-width:950px){
+  .info{
+    margin-left: 100px;
+  }
+  .nome_introducao{
+    font-size: 6rem;
+    line-height: 7.125rem;
+  }
+  .funcao_introducao{
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .sp p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .detalhe p{
+  font-size: 1rem;
+  line-height: 1.7rem;
+  }
+  }
+  @media(max-width:800px){
+    .info{
+      margin-left: 80px;
+    }
+    .nome_introducao{
+      font-size: 5rem;
+      line-height: 6.125rem;
+    }
+    .funcao_introducao::before {
+      width: 30px;
+      height: 10px;
+      left: 0px;
+    }
+  }
+  @media(max-width:650px){
+    .info{
+      margin-left: 40px;
+    }
+    .nome_introducao{
+      font-size: 4rem;
+      line-height: 5.125rem;
+    }
+    .funcao_introducao{
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    .sp p{
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+    }
+    .detalhe p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    }
+    }
+    @media(max-width:500px){
+      .info{
+        max-width: 100vh;
+        margin-left: 10px;
+      }
+      .nome_introducao{
+        font-size: 3rem;
+        line-height: 4.125rem;
+      }
+      .funcao_introducao{
+        font-size: 1.7rem;
+        line-height: 2.3rem;
+      }
+      .sp p{
+        font-size: 0.6rem;
+        line-height: 1rem;
+      }
+      .detalhe p{
+      font-size: 0.6rem;
+      line-height: 1.3rem;
+      }
+      }
